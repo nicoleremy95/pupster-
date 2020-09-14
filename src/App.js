@@ -1,14 +1,14 @@
 import './App.css';
-import {BrowserRouter as Router, Route, Switch} from 'react'
-import React from 'react'
-import Navbar from './components/navbar/Navbar'
-import Home from './components/home/Home'
-import Discover from './components/discover/Discover'
-import Search from './components/search/Search'
-import About from './components/about/About'
+import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
+import React from 'react';
+import Navbar from './components/navbar/Navbar';
+import Home from './components/home/Home';
+import Discover from './components/discover/Discover';
+import Search from './components/search/Search';
+import About from './components/about/About';
 
 
-function App() {
+export default function App() {
     return (
         <Router>
             <div>
@@ -32,4 +32,3 @@ function App() {
     )
 }
 
-export default App;
