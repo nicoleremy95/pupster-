@@ -14,16 +14,16 @@ export default function App() {
             <div>
                <Navbar/>  
                <Switch>
-                   <Route path="/">
+                   <Route exact path="/">
                        <Home/>
                    </Route>
-                   <Route path="/about">
+                   <Route exact path="/about">
                        <About/>
                    </Route>
-                   <Route path="/discover">
+                   <Route exact path="/discover">
                        <Discover/>
                    </Route>
-                   <Route path="/search">
+                   <Route exact path="/search">
                        <Search/>
                    </Route>
                </Switch>
